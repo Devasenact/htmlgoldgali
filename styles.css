@@ -499,6 +499,7 @@
 
 .row {
   display: flex;
+  justify-content: center;
 
 }
 
@@ -720,3 +721,30 @@ select::-ms-expand {
   margin-right: auto;
   width: 50%;
 }
+
+.testimonials-container { padding-bottom: 70px; background: #fff; }
+
+.testimonial-list { margin-top: 30px; text-align: center; }
+
+.testimonial-list .testimonial-image img {
+	max-width: 160px;
+	-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+
+.testimonial-list .testimonial-text { margin-top: 30px; }
+
+.testimonial-list .testimonial-text a { color: #ab99e0; border-bottom: 1px dotted #ab99e0; }
+.testimonial-list .testimonial-text a:hover, 
+.testimonial-list .testimonial-text a:focus { color: #ab99e0; border: 0; }
+
+.testimonial-list .nav-tabs { margin-top: 30px; border: 0; }
+.testimonial-list .nav-tabs li { float: none; display: inline-block; margin-left: 10px; margin-right: 10px; }
+
+.testimonial-list .nav-tabs li a {
+    width: 16px; height: 16px; margin: 0; padding: 0;
+    background: #ddd; border: 0;
+    -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+}
+.testimonial-list .nav-tabs li a:hover { background: #bbb; border: 0; }
+.testimonial-list .nav-tabs li.active a,
+.testimonial-list .nav-tabs li.active a:focus { background: #ab99e0; border: 0; }
